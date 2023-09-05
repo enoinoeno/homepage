@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+    margin: 20px;
+    font-size: 20px;
+}
+
+p {
+    color: indigo;
+    background-color: lightgoldenrodyellow;
+    padding: 30px;
+    margin: 30px;  
+    margin-top: 60px;
+  }
+
+  li{ 
+      color: blueviolet
+  }
+
+  ol{
+    background-color: aquamarine;
+    margin: 60px;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px
+  }
+
+  .introduction {
+    background-color: rgb(131, 174, 58);
+    border: 10px dotted blueviolet;
+  }
