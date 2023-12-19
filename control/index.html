@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <title>control></title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-wiidth,initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <button onclick="change()">MODE</button>
+
+
+
+
+        <div id="red" class="spinner"></div>
+        <div id="orange" class="spinner"></div>
+        <div id="spinner" class="yellow"></div>
+        <div id="spinner" class="green"></div>
+        <div id="spinner" class="blue"></div>
+        <div id="spinner" class="purple"></div>
+        <div id="spinner" class="pink"></div>
+
+
+
+        <script>
+            function change() {
+                var dark = document.getElementById("dark");
+                var spinner = document.getElementById("red");
+                var spinner = document.getElementById("orange");
+                var spinner = document.getElementById("yellow");
+                var spinner = document.getElementById("green");
+                var spinner = document.getElementById("blue");
+                var spinner = document.getElementById("purple");
+                var spinner = document.getElementById("pink");   
+                
+                spinner.classList.toggle("spin");
+                red.classList.toggle("red");
+                orange.classList.toggle("orange");
+                yellow.classList.toggle("yellow");
+                green.classList.toggle("green");
+                blue.classList.toggle("blue");
+                purple.classList.toggle("purple");
+                red.classList.toggle("pink");
+                
+                document.classList.toggle("dark");
+
+            }
+
+        </script>
+
+    </body>
+</html>

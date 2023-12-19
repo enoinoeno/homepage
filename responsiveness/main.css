@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    background-color: darkkhaki;
+    padding: 30px;
+    max-width: 600px;
+}

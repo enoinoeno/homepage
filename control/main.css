@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:skyblue;
+}
+   
+.spin {
+        transform: rotate(-180deg);
+    }
+
+
+.button {
+    color: white;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: rgb(21, 20, 20);
+    top: 45%;
+    left: 45px;
+}
+
+    
+    
+    .red {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        position: fixed;
+        left: 30px;
+        top: 30px;
+        transition: transform .3s;
+    }
+
+    .red:hover {
+        background-color: crimson;
+        transition: transform .3s;
+    }
+     
+    
+    .orange {
+        height: 100px;
+        width: 100px;
+        background-color:orange;
+        position: fixed;
+        left: 50%;
+        top: 30px;
+        transition: transform .3s;
+        }
+       
+     .orange:hover {
+            background-color: orangered;
+            transition: transform .3s;
+        }
+    
+    
+    .yellow {
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+        position: fixed;
+        right: 30px;
+        top: 30px;
+        transition: transform .3s;
+    }
+    
+    .yellow:hover {
+        background-color: rgb(221, 207, 0);
+        transition: transform .3s;
+    }
+    
+    .green {
+        height: 100px;
+        width: 100px;
+        background-color:green;
+        position: fixed;
+        left: 30px;
+        bottom: 30px;
+        transition: transform .3s;
+    }
+    
+    .green:hover {
+        background-color: rgb(0, 71, 9);
+        transition: transform .3s;
+    }
+    
+    .blue {
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        position: fixed;
+        left: 50%;
+        bottom: 30px;
+        transition: transform .3s;
+    }
+    
+    .blue:hover {
+        background-color: rgb(20, 0, 122);
+        transition: transform .3s;
+    }
+    
+    .purple {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(218, 133, 255);
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        transition: transform .3s;
+    }
+    
+    .purple:hover {
+        background-color: rgb(116, 0, 170);
+        transition: transform .3s;
+    }
+    
+    .pink {
+        height: 100px;
+        width: 100px;
+        background-color:pink;
+        position: fixed;
+        left: 50%;
+        top: 45%;
+        transition: transform .3s;
+    }
+    
+    .pink:hover {
+        background-color: rgb(205, 0, 130);
+        transition: transform .3s;
+    }
+    
+
+    
+
+    .dark {
+        background-color: rgb(30, 19, 47);   
+
+        .red {
+            height: 100px;
+            width: 100px;
+            background-color: crimson;
+            position: fixed;
+            left: 30px;
+            top: 30px;
+            transition: transform .3s;
+        }
+    
+        .red:hover {
+            background-color: rgb(104, 11, 30);
+        }
+         
+        
+        .orange {
+            height: 100px;
+            width: 100px;
+            background-color:orangered;
+            position: fixed;
+            left: 50%;
+            top: 30px;
+            transition: transform .3s;
+            }
+           
+         .orange:hover {
+                background-color: rgb(143, 38, 0);
+            }
+        
+        
+        .yellow {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(221, 207, 0);
+            position: fixed;
+            right: 30px;
+            top: 30px;
+            transition: transform .3s;
+        }
+        
+        .yellow:hover {
+            background-color: rgb(117, 109, 0);
+        }
+        
+        .green {
+            height: 100px;
+            width: 100px;
+            background-color:rgb(0, 71, 9);
+            position: fixed;
+            left: 30px;
+            bottom: 30px;
+            transition: transform .3s;
+        }
+        
+        .green:hover {
+            background-color: rgb(2, 28, 6);
+        }
+        
+        .blue {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(20, 0, 122);
+            position: fixed;
+            left: 50%;
+            bottom: 30px;
+            transition: transform .3s;
+        }
+        
+        .blue:hover {
+            background-color: rgb(7, 4, 21);
+        }
+        
+        .purple {
+            height: 100px;
+            width: 100px;
+            background-color:  rgb(116, 0, 170);
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            transition: transform .3s;
+        }
+        
+        .purple:hover {
+            background-color: rgb(33, 2, 47);
+        }
+        
+        .pink {
+            height: 100px;
+            width: 100px;
+            background-color:rgb(205, 0, 130);
+            position: fixed;
+            left: 50%;
+            top: 45%;
+            transition: transform .3s;
+        }
+        
+        .pink:hover {
+            background-color: rgb(75, 0, 48);
+        }
+        }
+    

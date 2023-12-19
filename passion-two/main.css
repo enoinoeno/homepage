@@ -1,0 +1,131 @@
+#sub {
+    font-size: 25;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(149, 149, 149);
+    text-align: center;
+    text-transform: lowercase;
+    margin: 40px;
+    padding: 20px;
+}
+
+#title {
+    font-size: 80;
+    margin: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(208, 120, 255);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(43, 40, 93);
+    padding: 40px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+ol {
+   font-size: 15;
+   font-family:'Times New Roman', Times, serif;
+   font-weight: 600;
+   text-align: center;
+   padding: 20px;
+   padding-top: 0px;
+   color: rgb(255, 255, 255); 
+   list-style-position: inside;
+   list-style-type: decimal;
+}
+
+.content-box {
+    background-color: rgba(28, 18, 18, 0.567);
+    width: 900px;
+    height: 500px;
+    align-content: center;
+    margin: auto;
+}
+
+.body {
+    font-size: 17.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    margin: 20px;
+    padding-top: 80px;
+    padding-inline: 200px;
+    padding-inline-start: 25%;
+}
+
+.body2 {
+    font-size: 17.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px;
+    padding-top: 10px;
+    padding-inline: 200px;
+}
+
+.sub {
+    font-size: 65;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(174, 176, 255);
+    text-align: center;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+.border-box {
+    border-style: double;
+    border-radius: 25px;
+    border-color: (174, 176, 255);
+    border-width: 10px;
+    width: 700px;
+    align-content: center;
+    margin: auto;
+}
+
+
+.link {
+    font-size: 15;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+img.pfp {
+    float: left;
+    position: relative;
+    top: -500px;
+}
+
+sub{
+    text-align: left;
+    font-size: 15;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 30px;
+    color:aquamarine;
+}
+
+a {
+    color: rgb(208, 120, 255);
+    cursor: cell;
+    text-decoration: none;
+}
+
+a:visited {
+    color:red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255); 
+    text-decoration: line-through;
+}
+
+.border-image {
+    border-style: double;
+    border-color: white;
+    border-width: 10px;
+    width: 350px;
+    align-content: center;
+    margin: auto;
+}

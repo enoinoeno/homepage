@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 162, 175);
+}
+
+.love {
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(144, 0, 0);
+    padding: 40px;
+    animation: tilt-n-move-shaking 4s infinite boths;
+}
+
+.love1 {
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(144, 0, 0);
+    padding: 40px;
+    display: none;
+}
+
+.love2 {
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(144, 0, 0);
+    padding: 40px;
+    display: none;
+}
+
+.love3 {
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(144, 0, 0);
+    padding: 40px;
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+
+    body {
+        background-color: rgb(255, 162, 175);
+    }
+
+    .love {
+        display: none;        
+    }
+
+    .love1 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    body {
+        background-color: rgb(247, 82, 104);
+    }
+
+    .love1 {
+        display: none;        
+    }
+
+    .love2 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+        body {
+            background-color: rgb(114, 30, 41);
+        }
+    
+    .love2 {
+        display: none;        
+    }
+
+    .love3 {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 510px) {
+
+    body {
+        background-color: rgb(131, 2, 19);
+    }
+
+    .love3 {
+        text-align: left;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    body {
+        background-color: rgb(131, 2, 19);
+    }
+
+    .love3 {
+        text-align: left;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@keyframes tilt-n-move-shaking {
+
+    0% { transform: translate(0, 0) rotate(0deg); }
+  
+    25% { transform: translate(5px, 5px) rotate(5deg); }
+  
+    50% { transform: translate(0, 0) rotate(0eg); }
+  
+    75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  
+    100% { transform: translate(0, 0) rotate(0deg); }
+  
+  }
+

@@ -1,0 +1,20 @@
+html {
+no-repeat center fixed;
+    background-size: cover;
+  }
+
+.earth::before {
+    animation: 1.5s linear infinite spinner;
+    animation-play-state: inherit;
+    /* border: solid 5px #cfd0d1;
+    border-bottom-color: #1c87c9;
+    border-radius: 50%;
+    content: ""; */
+    height: 40px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 40px;
+    will-change: transform;
+}

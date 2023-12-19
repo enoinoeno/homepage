@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    width: 1600px;
+    height: 2100px;
+    margin: 0px;
+}
+
+.box {
+    background-color: lightpink;
+}
+
+img:hover{
+    opacity: .5;
+    animation-name: spin, x;
+    animation-duration: s, 13s;
+    animation-iteration-count: infinite, infinite;
+    animation-fill-mode: linear, alternate;
+}
+
+img {
+/* display: flex;
+justify-content: center; */
+width: 350px;
+height: 500px;
+position: sticky;
+/* animation: run 4s infinite both;
+animation: spin 6s infinite linear; */
+animation-name: spin, x;
+animation-duration: 3s, 13s;
+animation-iteration-count: infinite, infinite;
+animation-fill-mode: linear, alternate;
+
+top: 100px;
+transform-origin: center;
+}
+
+@keyframes run {
+0% {background-color: red;}
+25% {background-color: green;}
+50% {background-color: blue;}
+75% {background-color: yellow;}
+100% {background-color: pink;}
+}
+
+.circle1 {
+    background-color: rgb(208, 0, 83);
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    animation-name: spin, grow, bounce;
+    animation-duration: 6s, 4s, 5s;
+    animation-iteration-count:infinite, infinite, infinite;
+    animation-fill-mode: linear, alternate, ease;
+    animation-delay: .25s;
+    position: relative;
+    justify-content: left;
+    top: -400px;
+    right: 300px;
+}
+
+.circle2 {
+    background-color: rgb(208, 0, 83);
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    animation-name: spin, grow, bounce;
+    animation-duration: 6s, 4s, 5s;
+    animation-iteration-count:infinite, infinite, infinite;
+    animation-fill-mode: linear, alternate, ease;
+    animation-delay: .5s;
+    position: relative;
+    justify-content: center;
+    top: -550px;
+    left: -1000px;
+}
+
+.circle3 {
+    background-color: rgb(208, 139, 0);
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    animation-name: spin, grow, bounce;
+    animation-duration: 6s, 4s, 5s;
+    animation-iteration-count:infinite, infinite, infinite;
+    animation-fill-mode: linear, alternate, ease;
+    animation-delay: .5s;
+    position: relative;
+    justify-content: right;
+    top: -1000px;
+    /* left: -500px; */
+}
+
+.circle4 {
+    background-color: rgb(208, 0, 83);
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    animation-name: spin, grow, bounce;
+    animation-duration: 6s, 4s, 5s;
+    animation-iteration-count:infinite, infinite, infinite;
+    animation-fill-mode: linear, alternate, ease;
+    position: relative;
+    justify-content: right;
+    top: -500px;
+    /* left: -2000px; */
+}
+
+.circle5 {
+    background-color: rgb(208, 0, 83);
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    animation-name: spin, grow, bounce;
+    animation-duration: 6s, 4s, 5s;
+    animation-iteration-count:infinite, infinite, infinite;
+    animation-fill-mode: linear, alternate, ease;
+    position: relative;
+    justify-content: center;
+    top: -500px;
+    left: -1000px;
+}
+
+.circle6 {
+    background-color: rgb(0, 208, 90);
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    animation-name: spin, grow, bounce;
+    animation-duration: 6s, 4s, 5s;
+    animation-iteration-count:infinite, infinite, infinite;
+    animation-fill-mode: linear, alternate, ease;
+    position: relative;
+    justify-content: center;
+    top: -500px;
+    left: -1000px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* .bounce {
+    animation: bounce 2s ease infinite;
+  } */
+  /* @keyframes bounce {
+      0% { transform:translateY(0%); }
+      50% { transform:translateY(0%); }
+      95% { transform:translateY(-30%); }
+      97% { transform:translateY(0%); }
+      99% { transform:translateY(-45%); }
+      100% { transform:translateY(0); }
+  } */
+
+@keyframes grow {
+    0% {
+      width: 15px;
+      height: 15px;
+      opacity: .5;
+    }
+    100% {
+    width: 900px;
+    height: 900px;
+    opacity: .25;
+    transform
+    }
+
+
+/* .ball{
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+} */
+
+
+  /* .x {
+    animation: x var(5s) linear infinite alternate;
+  }
+  .y {
+    animation: y var(5s) linear infinite alternate;
+  }
+  
+  @keyframes x {
+    100% {
+      transform: translateX(calc(100vw - var(100%)));
+    }
+  }
+  @keyframes y {
+    100% {
+      transform: translateY(calc(100vh - var(100%)));
+    }
+  } */
+
+  /* .circle:nth-of-type(1) {
+    animation-delay: 1s;
+
+  }
+  
+  .circle:nth-of-type(2) {
+    animation-delay: 3s;
+  }
+  
+  .circle:nth-of-type(3) {
+    animation-delay: 2s;
+    width: 8px;
+    height: 8px;
+  }
+   
+  .circle:nth-of-type(4) {
+    animation-delay: 3s;
+    width: 8px;
+    height: 8px;
+  }
+  
+  .circle:nth-of-type(5) {
+    animation-delay: 2s;
+  }
+    
+  .circle:nth-of-type(6) {
+    animation-delay: 1s;
+    width: 8px;
+    height: 8px;
+  }
+  
+  .circle:nth-of-type(7) {
+    animation-delay: 4s;
+  }
+  
+  .circle:nth-of-type(8) {
+    animation-delay: 3s;
+  }
+  
+  .circle:nth-of-type(9) {
+    animation-delay: 2s;
+    width: 8px;
+    height: 8px;
+  }
+    
+  .circle:nth-of-type(10) {
+    animation-delay: 1s;
+  }
+      
+  .circle:nth-of-type(11) {
+    animation-delay: 2s;
+  }
+      
+  .circle:nth-of-type(12) {
+    animation-delay: 3s;
+    width: 8px;
+    height: 8px;
+  }
+      
+  .circle:nth-of-type(13) {
+    animation-delay: 4s;
+  }
+      
+  .circle:nth-of-type(14) {
+    animation-delay: 2s;
+  }
+  
+
+  
+  
+   */

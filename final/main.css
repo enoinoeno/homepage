@@ -1,0 +1,75 @@
+/* * {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+} */
+
+body {
+    background-color:rgb(255, 231, 95);
+    cursor:,auto;
+}
+
+img.map {
+    position: fixed;
+    top: 30%;
+    left: 40%;
+}
+
+.map:hover {
+opacity: 35%;
+}
+
+img.plane {
+
+  animation: xAxis 2.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+}
+
+.plane::after {
+  /* content: ''; */
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  animation: yAxis 2.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxis {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(1000px);
+  }
+}
+
+@keyframes xAxis {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(1000px);
+  }
+}
+
+
+@keyframes spinner {
+0% {
+    transform: translate3d(-50%, -50%, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotate(360deg);
+  }
+
+
+  .earth::before {
+    animation: 1.5s linear infinite spinner;
+    animation-play-state: inherit;
+    /* border: solid 5px #cfd0d1;
+    border-bottom-color: #1c87c9;
+    border-radius: 50%;
+    content: ""; */
+    height: 40px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 40px;
+    will-change: transform;
+}
