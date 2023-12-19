@@ -1,7 +1,3 @@
-html {
-no-repeat center fixed;
-    background-size: cover;
-  }
 
 .earth::before {
     animation: 1.5s linear infinite spinner;
